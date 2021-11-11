@@ -22,3 +22,8 @@ if(time > 5){
 
 console.log(__dirname);
 console.log(__filename);
+
+//models and require (accees another js file from app,js)
+
+myModule = require('./counter.js');
+console.log(counter([]))
