@@ -26,4 +26,4 @@ console.log(__filename);
 //models and require (accees another js file from app,js)
 
 myModule = require('./counter.js');
-console.log(counter([]))
+console.log(myModule(['Ashan','Galle','Sri Lanka']))
